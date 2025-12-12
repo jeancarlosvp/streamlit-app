@@ -12,6 +12,8 @@ section = st.sidebar.radio(
     ["Vista General", "Productos", "Ventas", "Pagos"]
 )
 
+# Agrego un comentario sobre la aplicación
+
 database = Database()
 
 if section == "Vista General":
